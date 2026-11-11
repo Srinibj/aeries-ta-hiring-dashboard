@@ -1,0 +1,42 @@
+
+# Ignore everything by default
+/*
+
+# Allow dashboard application
+!/dashboard/
+!/dashboard/**
+
+# Allow database connection module
+!/database_connection.py
+
+# Allow dependency list and documentation
+!/requirements.txt
+!/README.md
+
+# Allow Git ignore file
+!/.gitignore
+
+# Sensitive files and folders
+.env
+.env.*
+config/
+database/
+Backup/
+reference/
+sync_engine/
+logs/
+.idea/
+.venv/
+.venv_dashboard/
+__pycache__/
+*.pyc
+*.pyo
+*.xlsx
+*.xls
+*.csv
+*.parquet
+*.sql
+*.dump
+*.backup
+*.pem
+*.key
